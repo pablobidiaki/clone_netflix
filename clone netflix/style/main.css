@@ -1,0 +1,97 @@
+:root{
+    --vermelho:#e50914;
+    --preto:#141414;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+background-color: var(--preto);
+font-family:'Arial', Times, serif;
+font-size:14px;
+color:white;
+}
+header .container{
+display:flex;
+flex-direction: row;
+align-items: center;
+justify-content:space-between;
+}
+header .logo {
+    color: var(--vermelho);
+    font-family:'Arial Black' ,times ;
+    font-size:35px;
+    margin-left: 10px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #BDBDBD;
+    margin-right: 20px;
+}
+header nav a:hover{
+color: #fff;
+}
+.filmecentro{
+        font-size: 16px;
+        background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(25, 25, 24, 0.5) .100%), url("owl/projetoadam.jpg");
+        background-size:100% 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        
+
+ }
+    .filmecentro .sinopse {
+        margin-top:5px;
+        margin-bottom: 48px;
+        margin-left:10px;
+    }
+    
+    .titulo{
+        font-size:50px;
+        margin-left:10px;
+        font-family:tahoma,arial ;
+    }
+    .botao{
+        background-color: rgba(0,0,0,.50);
+        border:none;
+        color:white;
+        padding:15px 30px;
+        margin-left:10px;
+        margin-right: 15px;
+        font-size:12px;
+        cursor: pointer;
+        transition:.3s ease all;
+    }
+    .botao:hover{
+        background-color: white;
+        color:black;
+    }
+    .fa-solid{
+        margin-right:8px;
+        color:#BDBDBD;
+    
+    }
+    .filme-centro .container{
+        width:75%;
+    }
+    .box-filmes{
+        height:100%;
+        width:100%;
+        display:block;
+    }
+    .carrosel-filmes{
+        margin-top: px; 
+    }
+    .frase{
+        font-size:18px; 
+        margin-top:5px;
+        border-bottom:5%;
+        font-family: 'arial black';
+    }
+ 
